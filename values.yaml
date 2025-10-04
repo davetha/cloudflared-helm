@@ -1,0 +1,7 @@
+# Default values for the custom cloudflared chart.
+
+replicaCount: 2
+
+cloudflare:
+  # Replace this with your cloudflared secret token
+  token: "YOUR_TUNNEL_TOKEN"
