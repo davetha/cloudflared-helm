@@ -20,7 +20,7 @@ The following table lists the configurable parameters of the chart and their def
 | Parameter | Description | Default |
 | --- | --- | --- |
 | `cloudflare.token` | Your cloudflared token. | `""` |
-| `cloudflare.name` | The name of the cloudflared deployment. | `"cloudflared"` |
+| `replicaCount` | The number of cloudflared replicas. | `2` |
 
 ## Usage
 
