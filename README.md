@@ -24,8 +24,15 @@ The following table lists the configurable parameters of the chart and their def
 
 ## Usage
 
-1.  Update the `values.yaml` file with your cloudflared token.
-2.  Deploy the chart using Helm:
+1.  Clone the repository:
+
+    ```bash
+    git clone https://github.com/davetha/cloudflared-helm.git
+    cd cloudflared-helm
+    ```
+
+2.  Update the `values.yaml` file with your cloudflared token.
+3.  Deploy the chart using Helm:
 
     ```bash
     helm install <release-name> . --namespace <your-namespace>
